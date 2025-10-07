@@ -7,7 +7,4 @@ public class Main {
         Homework1.showHomework();
         Homework3.showHomework();
     }
-
-
-
 }

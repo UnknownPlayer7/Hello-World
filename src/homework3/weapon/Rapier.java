@@ -1,20 +1,20 @@
-package homework3;
+package homework3.weapon;
 
 public class Rapier {
     private String owner;
     private boolean isClean;
 
-    Rapier(String owner) {
+    public Rapier(String owner) {
         this.owner = owner;
         isClean = true;
 
     }
 
-    void polish() {
+    public void polish() {
         isClean = true;
     }
 
-    void makeDirty() {
+    public void makeDirty() {
         isClean = false;
     }
 
