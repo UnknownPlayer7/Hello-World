@@ -1,9 +1,11 @@
 
-import homework2.Homework2;
+import homework1.Homework1;
+import homework3.Homework3;
 
 public class Main {
     public static void main(String[] args) {
-        Homework2.showHomework();
+        Homework1.showHomework();
+        Homework3.showHomework();
     }
 
 
